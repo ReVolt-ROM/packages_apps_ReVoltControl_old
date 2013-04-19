@@ -932,4 +932,7 @@
     <string name="toggles_enable_haptic_feedback_title">Enable haptic feedback</string>
     <string name="toggles_enable_haptic_feedback_summary">Use haptic feedback when pressing toggles</string>
 
+    <!-- Font Size -->
+    <string name="font_size_title">Font Size</string>
+    <string name="font_size_summary">Control the System Font Size</string>
 </resources>
