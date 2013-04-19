@@ -116,9 +116,9 @@ public class VibrationsProvider extends ContentProvider
     public String getType(Uri uri) {
         switch (uriMatcher.match(uri)) {
             case VIBRATIONS: // ---get all vibrations---
-                return "vnd.android.cursor.dir/vnd.revoltcontrol.vibrations";
+                return "vnd.android.cursor.dir/vnd.romcontrol.vibrations";
             case VIBRATION_ID: // ---get a particular vibration---
-                return "vnd.android.cursor.item/vnd.revoltcontrol.vibrations";
+                return "vnd.android.cursor.item/vnd.romcontrol.vibrations";
             default:
                 throw new IllegalArgumentException("Unsupported URI: " + uri);
         }
