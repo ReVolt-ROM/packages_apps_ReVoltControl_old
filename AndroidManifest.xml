@@ -214,6 +214,9 @@
                     android:host="2657"/>
             </intent-filter>
         </receiver>
+   
+        <!-- Power Widget -->
+        <activity android:name=".cyanogenmod.PowerWidget" />
 
         <service android:name=".service.BootService"/>
         <service android:name=".service.HeadphoneService"/>

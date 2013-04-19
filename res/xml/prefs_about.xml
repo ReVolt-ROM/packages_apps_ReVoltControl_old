@@ -2,7 +2,7 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_rv_settings_title"
-	xmlns:rv="http://schemas.android.com/apk/res/com.revolt.control">
+	xmlns:revolt="http://schemas.android.com/apk/res/com.revolt.control">
 
 	<PreferenceCategory
 		android:key="links"
@@ -29,9 +29,9 @@
 
 		<com.revolt.control.widgets.DeveloperPreference
             android:title="Johnhany97"
-            rv:nameDev="Johnhany97"
-            rv:twitterHandle="jhany97"
-            rv:donateLink="@string/donate_johnhany97" />
+            revolt:nameDev="Johnhany97"
+            revolt:twitterHandle="jhany97"
+            revolt:donateLink="@string/donate_johnhany97" />
 
         </PreferenceCategory>
 
@@ -41,15 +41,15 @@
 
 		<com.revolt.control.widgets.DeveloperPreference
             android:title="CyanogenMod"
-            rv:nameDev="cyanogenmod"
-            rv:twitterHandle="cyanogenmod"
-            rv:donateLink="@string/donate_cyanogenmod" />
+            revolt:nameDev="cyanogenmod"
+            revolt:twitterHandle="cyanogenmod"
+            revolt:donateLink="@string/donate_cyanogenmod" />
 
 		<com.revolt.control.widgets.DeveloperPreference
             android:title="AOKP"
-            rv:nameDev="aokp"
-            rv:twitterHandle="aokp_rom"
-            rv:donateLink="@string/donate_aokp" />
+            revolt:nameDev="aokp"
+            revolt:twitterHandle="aokp_rom"
+            revolt:donateLink="@string/donate_aokp" />
 
 	</PreferenceCategory>
 
